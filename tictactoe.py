@@ -54,8 +54,7 @@ while(Game == 0):
     else:
         print("Player 2's chance")
         Mark = 'O'
-    choice = int(
-        input("Enter the position between [1-9] where you want to mark : "))
+    choice = int(input("Enter the position between [1-9] where you want to mark : "))
     if(CheckPosition(choice)):
         board[choice] = Mark
         player += 1
