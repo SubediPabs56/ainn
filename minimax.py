@@ -7,7 +7,7 @@ def minimax(tree, depth):
         if max_turn:
             tree =[max(a,b) for a,b in zipped]
         else:
-            tree =[max(a,b) for a,b in zipped]
+            tree =[min(a,b) for a,b in zipped]
         max_turn = not max_turn
     return tree[0]
 
