@@ -16,7 +16,7 @@ def a_star(graph, start, end, heuristic):
 
 
 graph = {
-    'A': {'B': 6, 'F': 3},
+    'A': {'B': 2, 'F': 3},
     'B': {'A': 2, 'C': 3, 'D': 2},
     'C': {'B': 3,'D': 1, 'E': 5},
     'D': {'B': 2,'C': 1, 'E': 8},
